@@ -16,3 +16,10 @@ body{
     border-bottom: 2px solid;
     font-weight: 600;
 }
+
+
+
+.pagination-container{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(64, 158, 64) rgb(14, 30, 62);
+}
