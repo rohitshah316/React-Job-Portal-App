@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+*{
+    transition: all 0.2s;
+}
+
+body{
+    background-color: #111;
+    transition: none;
+    color: white;
+}
+
+
+.active{
+    border-bottom: 2px solid;
+    font-weight: 600;
+}
