@@ -51,8 +51,8 @@ const Home = () => {
 
         <FilterJob setTypeFilter={setTypeFilter} setLevelFilter={setLevelFilter}/>
 
-        {appliedSearch && filteredPosts.length>0 && <p>{filteredPosts.length} Jobs Available.</p>}
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-2'>
+        {filteredPosts  && filteredPosts.length>0 && <p className='mt-2'>{filteredPosts.length} Jobs Available.</p>}
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-6'>
             {currentPosts.map(job=>(
                 <JobCard job={job} key={job.id}/>
             ))}
