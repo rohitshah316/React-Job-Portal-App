@@ -73,7 +73,7 @@ const JobDetails = () => {
 
         <div className='flex flex-col md:flex-row font-bold text-white gap-1 mt-6'>
                         <button className='bg-blue-500 hover:bg-blue-900 flex-1 py-1 rounded-xl cursor-pointer'>Apply Now</button>
-                        <button onClick={onSavedClick} className={` flex-1 py-1 rounded-xl cursor-pointer hover:bg-gray-900 ${saved?'bg-green-500 hover:bg-green-800':'border'}`}>Save Job</button>
+                        <button onClick={onSavedClick} className={` flex-1 py-1 rounded-xl cursor-pointer hover:bg-gray-900 ${saved?'bg-green-500 hover:bg-green-800':'border'}`}>{saved?'Saved Job':'Save Job'}</button>
                     </div>
       </div>
 
