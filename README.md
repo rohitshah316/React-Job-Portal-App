@@ -45,40 +45,6 @@ Check out the live version here:
 
 ---
 
-## 📂 Folder Structure
-src/
-│
-├── components/
-│ ├── common/
-│ │ ├── FilterJob.jsx
-│ │ ├── JobCard.jsx
-│ │ ├── Pagination.jsx
-│ │ └── SearchBar.jsx
-│ │
-│ └── layout/
-│ ├── Navbar.jsx
-│ └── Footer.jsx
-│
-├── context/
-│ └── SavedJobContext.jsx
-│
-├── data/
-│ └── jobs.jsx
-│
-├── pages/
-│ ├── Home.jsx
-│ ├── JobDetails.jsx
-│ ├── SavedJobs.jsx
-│ ├── About.jsx
-│ └── NotFound.jsx
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
----
-
 ---
 
 ## 🧠 Key Concepts Demonstrated
